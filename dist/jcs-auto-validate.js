@@ -1,7 +1,7 @@
 /*
- * angular-auto-validate - v1.19.3 - 2015-11-30
+ * angular-auto-validate - v1.19.3 - 2016-01-10
  * https://github.com/jonsamwell/angular-auto-validate
- * Copyright (c) 2015 Jon Samwell (http://www.jonsamwell.com)
+ * Copyright (c) 2016 Jon Samwell (http://www.jonsamwell.com)
  */
 (function (String, angular) {
     'use strict';
@@ -1185,7 +1185,6 @@ angular.module('jcs-autoValidate').directive('form', [
     return {
       restrict: 'E',
       require: 'form',
-      priority: 9999,
       compile: function () {
         return {
           pre: function (scope, element, attrs, ctrl) {
